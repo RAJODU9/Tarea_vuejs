@@ -1,30 +1,17 @@
 <template>
   <div id="app">
-    <el-menu
-      mode="horizontal"
-      background-color="#3498db"
-      text-color="#ffffff"
-      active-text-color="#ffffff"
-    >
+    <el-menu mode="horizontal" background-color="#3498db" text-color="#ffffff" active-text-color="#ffffff">
       <el-menu-item index="1">
-        <router-link :to="{ path: '/' }" class="custom-menu-item"
-          >Home</router-link
-        >
+        <router-link :to="{ path: '/' }" class="custom-menu-item">Home</router-link>
       </el-menu-item>
       <el-menu-item index="2">
-        <router-link :to="{ path: '/todo-list' }" class="custom-menu-item"
-          >Todo List</router-link
-        >
+        <router-link :to="{ path: '/todo-list' }" class="custom-menu-item">Todo List</router-link>
       </el-menu-item>
       <el-menu-item index="3">
-        <router-link :to="{ path: '/issue-list' }" class="custom-menu-item"
-          >Issues</router-link
-        >
+        <router-link :to="{ path: '/issue-list' }" class="custom-menu-item">Issues</router-link>
       </el-menu-item>
       <el-menu-item index="4">
-        <router-link :to="{ path: '/todo-issues' }" class="custom-menu-item"
-          >Todo Issues</router-link
-        >
+        <router-link :to="{ path: '/todos-issue' }" class="custom-menu-item">Todo Issues</router-link>
       </el-menu-item>
     </el-menu>
 
